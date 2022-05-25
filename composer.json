@@ -1,0 +1,30 @@
+{
+    "name": "productgallery",
+    "description": "<module description>",
+    "authors": [
+        {
+            "name": "Gustas Kurtkus",
+            "email": "gustas.kurtkus@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PrestaShop\\Module\\ProductGallery\\": "src/"
+        },
+        "classmap": [
+            "productgallery.php",
+            "classes/"
+        ],
+        "exclude-from-classmap": []
+    },
+    "config": {
+        "preferred-install": "dist",
+        "prepend-autoloader": false
+    },
+    "type": "prestashop-module",
+    "author": "<???>",
+    "license": "<???>"
+}

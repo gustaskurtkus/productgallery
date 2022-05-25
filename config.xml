@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>productgallery</name>
+	<displayName><![CDATA[Product gallery]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Creates additional gallery for product to upload customer pictures and etc.]]></description>
+	<author><![CDATA[Gustas Kurtkus]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
